@@ -1,0 +1,31 @@
+#my_name {
+  font-size: 2vh;
+}
+
+#first_art_sec {
+  height: 50vh;
+}
+
+#about_pp {
+  line-height: 2.4vh;
+  margin-top: 3vh;
+}
+
+#about_ppp {
+  line-height: 2.3vh;
+  margin-top: 4vh;
+}
+
+#portfolio_p {
+  margin-top: 20vh;
+}
+
+.work {
+  height: 40vh;
+}
+
+#second_art {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}

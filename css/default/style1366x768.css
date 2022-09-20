@@ -1,0 +1,34 @@
+#my_name {
+  font-size: 2.6vw;
+  width: 42vw;
+}
+
+button {
+  width: 9vw;
+  height: 5vh;
+}
+
+#about_p {
+  margin-top: 12vh;
+  font-size: 15px;
+}
+
+#about_pp {
+  margin-right: 4vw;
+  margin-left: 4vw;
+  font-size: 15px;
+  line-height: 3vh;
+  margin-top: 8vh;
+}
+
+#about_ppp {
+  margin-top: 8vh;
+  margin-right: 4vw;
+  margin-left: 4vw;
+  line-height: 3vh;
+  font-size: 15px;
+}
+
+#second_art {
+  display: none;
+}

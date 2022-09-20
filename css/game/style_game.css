@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+h1, p, a {
+  font-family: "Press Start 2P", cursive;
+}
+
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  overflow-y: hidden;
+  padding: 0;
+  background-color: #c46ddc;
+}
+
+#default_button {
+  margin-bottom: 10vh;
+  text-align: center;
+}
+
+#default_link {
+  text-decoration: none;
+}
+
+#main_hub {
+  margin-top: 15vh;
+}
+
+.games {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: auto;
+  height: auto;
+  margin-right: 5vw;
+  margin-left: 5vw;
+}
+
+.game {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: rgba(114, 25, 187, 0.75);
+  width: 20vw;
+  height: 50vh;
+  text-decoration: none;
+  color: snow;
+}
+
+.game a {
+  display: block;
+}
+
+.game:hover {
+  background-color: rgba(58, 2, 105, 0.75);
+}

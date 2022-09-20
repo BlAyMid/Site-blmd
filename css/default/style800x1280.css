@@ -1,0 +1,63 @@
+#my_name {
+  font-size: 3vw;
+  width: 50vw;
+}
+
+#first_art {
+  display: none;
+}
+
+#first_art_sec {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 7vw;
+  width: 27vw;
+  height: 40vh;
+}
+
+#second_art {
+  height: 15vh;
+  width: 15vw;
+}
+
+button {
+  width: 16vw;
+  height: 4vh;
+}
+
+#my_name {
+  margin-left: 7vw;
+}
+
+#about_p {
+  font-size: 1.5vh;
+  margin-top: 10vh;
+}
+
+#about_pp {
+  font-size: 1.5vh;
+  line-height: 2vh;
+  margin-left: 4vw;
+  margin-top: 5vh;
+}
+
+#about_ppp {
+  font-size: 1.5vh;
+  line-height: 2vh;
+  margin-left: 4vw;
+  margin-top: 6vh;
+}
+
+#portfolio_p {
+  line-height: 3vw;
+}
+
+#contacts_p {
+  line-height: 3vw;
+}
+
+#three_art {
+  height: 20vh;
+  width: 40vw;
+}

@@ -1,0 +1,327 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+h1, p, a {
+  font-family: "Press Start 2P", cursive;
+}
+
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  overflow-y: hidden;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+  margin: 0 auto;
+  border: 0;
+  overflow: hidden;
+}
+
+#first_block {
+  background-color: rgb(73, 120, 185);
+  text-align: center;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#second_block {
+  background-color: rgb(41, 161, 125);
+  text-align: center;
+}
+
+#nav_block {
+  margin-top: 1vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  top: 0;
+  padding: 10px;
+  overflow: hidden;
+  position: fixed;
+}
+
+#info {
+  background-color: rgb(96, 134, 25);
+}
+
+#about {
+  color: rgb(88, 199, 127);
+  background-color: rgb(40, 110, 81);
+  text-align: center;
+  line-height: 1.8vh;
+}
+
+#about_p {
+  margin-top: 12vh;
+  text-shadow: black 0 0 3px;
+}
+
+#about_pp {
+  margin-right: 3vw;
+  margin-left: 3vw;
+  margin-top: 10vh;
+  text-align: left;
+  text-shadow: black 0 0 3px;
+}
+
+#about_ppp {
+  margin-right: 3vw;
+  margin-left: 3vw;
+  text-align: left;
+  margin-top: 10vh;
+  text-shadow: black 0 0 3px;
+}
+
+#portfolio {
+  background-color: rgb(138, 28, 61);
+}
+
+#contacts {
+  background-color: rgb(53, 117, 131);
+  text-align: center;
+}
+
+#my_name {
+  text-align: center;
+  float: left;
+  color: white;
+  width: 35vw;
+  height: 20vh;
+}
+
+a {
+  color: indigo;
+  text-decoration: none;
+}
+
+mark {
+  padding: 0.2%;
+  background-color: rgb(41, 161, 125);
+  color: white;
+}
+
+#portfolio_p {
+  margin-top: 15vh;
+  display: block;
+  height: 20vh;
+  text-align: center;
+  color: snow;
+}
+
+#contacts_p {
+  margin-top: 30vh;
+  text-align: center;
+  color: snow;
+}
+
+.windows {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.works {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: auto;
+  height: auto;
+  margin-right: 5vw;
+  margin-left: 5vw;
+}
+
+.work {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: rgb(108, 22, 48);
+  width: 20vw;
+  height: 50vh;
+  text-decoration: none;
+  color: snow;
+}
+
+.work a {
+  display: block;
+}
+
+.work:hover {
+  background-color: rgb(204, 23, 77);
+}
+
+.img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#first_art {
+  height: 80vh;
+  max-width: 100%;
+  float: right;
+}
+
+#second_art {
+  height: 30vh;
+  width: 15vw;
+}
+
+#three_art {
+  height: 30vh;
+  width: 40vw;
+}
+
+#first_art_sec {
+  display: none;
+}
+
+button {
+  width: 8vw;
+  height: 5vh;
+}
+
+.button_home_active {
+  border: none;
+  border-radius: 7px;
+  padding: 10px 25px;
+  background: #1a3b77;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #5967d3;
+  margin: 5px;
+}
+
+.button_home {
+  border: none;
+  border-radius: 7px;
+  padding: 10px 25px;
+  background: #ffffff;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #5967d3;
+  margin: 5px;
+}
+
+.button_home:hover {
+  background: #1a3b77;
+}
+
+.button_about_active {
+  border: none;
+  border-radius: 7px;
+  padding: 10px 25px;
+  background: rgb(25, 68, 50);
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: rgb(40, 110, 81);
+  margin: 5px;
+}
+
+.button_about {
+  border: none;
+  border-radius: 7px;
+  padding: 10px 25px;
+  background: #ffffff;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: rgb(40, 110, 81);
+  margin: 5px;
+}
+
+.button_about:hover {
+  background: rgb(25, 68, 50);
+}
+
+.button_portfolio_active {
+  border: none;
+  border-radius: 7px;
+  padding: 10px 25px;
+  background: rgb(86, 17, 38);
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: rgb(138, 28, 61);
+  margin: 5px;
+}
+
+.button_portfolio {
+  border: none;
+  border-radius: 7px;
+  padding: 10px 25px;
+  background: #ffffff;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: rgb(138, 28, 61);
+  margin: 5px;
+}
+
+.button_portfolio:hover {
+  background: rgb(86, 17, 38);
+}
+
+.button_contact_active {
+  border: none;
+  border-radius: 7px;
+  padding: 10px 25px;
+  background: rgb(31, 69, 77);
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: rgb(53, 117, 131);
+  margin: 5px;
+}
+
+.button_contact {
+  border: none;
+  border-radius: 7px;
+  padding: 10px 25px;
+  background: #ffffff;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: rgb(53, 117, 131);
+  margin: 5px;
+}
+
+.button_contact:hover {
+  background: rgb(31, 69, 77);
+}
+
+form {
+  margin: 0;
+}

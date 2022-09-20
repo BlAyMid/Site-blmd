@@ -1,0 +1,59 @@
+html {
+  overflow-y: scroll;
+}
+
+button {
+  display: none;
+  width: 22vw;
+  height: 6vh;
+  font-size: 1vh;
+}
+
+#first_art_sec {
+  width: 40vw;
+}
+
+#my_name {
+  margin-top: 15vh;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  font-size: 3.7vh;
+}
+
+#about_p {
+  margin-left: 4vw;
+  margin-right: 4vw;
+  font-size: 1.5vh;
+}
+
+#about_pp {
+  margin-left: 4vw;
+  margin-right: 4vw;
+  font-size: 1.5vh;
+}
+
+#about_ppp {
+  display: none;
+}
+
+#portfolio_p {
+  margin-left: 4vw;
+  margin-right: 4vw;
+  font-size: 2vh;
+  line-height: 2.3vh;
+}
+
+.work {
+  font-size: 2vw;
+  height: 30vh;
+}
+
+#contacts_p {
+  line-height: 2.5vh;
+  margin-left: 4vw;
+  margin-right: 4vw;
+}
+
+#three_art {
+  height: 20vh;
+}
